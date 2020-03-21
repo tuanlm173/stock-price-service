@@ -104,6 +104,7 @@ public class MultiMovingAverageServiceImpl implements MultiMovingAverageService 
                 stockAverages.add(stockAverage);
             }
         }
+        logger.info("Done fetching data for tickers {}", tickersParam);
 
         return MultiTwoHundredMovingAvg.of(stockAverages);
     }
