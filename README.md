@@ -10,11 +10,11 @@ Check out the project
 
 ##### Build the project
 
-`./gradlew build`
+`./gradlew build` on Linux/MacOS or `gradlew.bat build` on Windows 
 
 ##### Run the project 
 
-`./gradlew bootRun`
+`./gradlew bootRun` on Linux/MacOS or `gradlew.bat bootRun` on Windows
 
 ## Querying close price
 
